@@ -26,8 +26,4 @@ class HomePage extends React.Component {
     }
 }
 
-HomePage.propTypes = {
-    notes: PropTypes.arrayOf(PropTypes.object.isRequired),
-};
-
 export default HomePage;

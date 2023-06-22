@@ -45,7 +45,6 @@ class DetailPage extends React.Component {
 }
 
 DetailPage.propTypes = {
-    note: PropTypes.func.isRequired,
     id: PropTypes.string.isRequired,
     navigate: PropTypes.func.isRequired,
 };
