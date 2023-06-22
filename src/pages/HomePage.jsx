@@ -3,7 +3,6 @@ import NoteList from "../components/NoteList";
 import { getAllNotes } from "../utils/local-data";
 import SearchBar from "../components/SearchBar";
 import HomePageAction from "../components/HomePageAction";
-import PropTypes from "prop-types";
 
 class HomePage extends React.Component {
     constructor(props) {
